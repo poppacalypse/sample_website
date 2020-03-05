@@ -6,6 +6,7 @@
   </head>
   <body>
 
+    <header>
     <h1>Important HTML tags</h1>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank" rel="noopener"><img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper"></a>
@@ -19,10 +20,12 @@
     </p>
 
     <p>
-      The tables below don't include all HTML tags, but they do list many of
+      <span>The tables below</span> don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
+    </header>
 
+    <div>
     <h2>Block Elements</h2>
 
     <table>
@@ -61,8 +64,25 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>display content as a list, in ascending numerical order</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>display content as a list, usually styled with bullet points</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list element</td>
+        <td>content for either <code>ol</code> or <code>ul</code> lists</td>
+      </tr>
     </table>
+    </div>
 
+    <div>
     <h2>Inline Elements</h2>
 
     <table>
@@ -119,6 +139,7 @@
         <td><code>say hello to monospace text</code></td>
       </tr>
     </table>
+    </div>
 
   </body>
 </html>
