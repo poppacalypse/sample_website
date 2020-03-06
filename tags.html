@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: #5dbcd2;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none; color: #5dbcd2;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration-line: none; color: #5dbcd2;">Moby Dick</a>
     </div>
 
     <header>
@@ -32,6 +32,48 @@
     </header>
 
     <div>
+      <h2>Document Tags</h2>
+
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Purpose</th>
+        </tr>
+
+        <tr>
+          <td><code>html</code></td>
+          <td>HyperText Markup Language</td>
+          <td>inform the browser that this is an HTML document</td>
+        </tr>
+
+        <tr>
+          <td><code>head</code></td>
+          <td>head</td>
+          <td>define metadata that is not displayed to users in the browser, tell browser where to find files &#40;e.g. CSS&#41; that will be used to properly display the page's content</td>
+        </tr>
+
+        <tr>
+          <td><code>body</code></td>
+          <td>body</td>
+          <td>display page content &#40;OK to be empty&#41;</td>
+        </tr>
+
+        <tr>
+          <td><code>title</code></td>
+          <td>title</td>
+          <td>display page title in browser tab &#40;cannot be empty&#41;</td>
+        </tr>
+
+        <tr>
+          <td><code>meta</code></td>
+          <td>metadata</td>
+          <td>data about data. e.g. <code>meta charset="utf-8"</code> &ndash; tell browser which character set to use to handle expanded range of characters &#40;Unicode&#41;</td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
     <h2>Block Elements</h2>
 
     <table>
@@ -41,8 +83,8 @@
         <th>Purpose</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">headings</td>
         <td>include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
@@ -145,6 +187,43 @@
         <td><code>say hello to monospace text</code></td>
       </tr>
     </table>
+    </div>
+
+    <div>
+      <h2>Divs and Spans</h2>
+      <p>Tags that have little to no impact on page appearance, but help organise the page into logical units.</p>
+
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Purpose</th>
+        </tr>
+
+        <tr>
+          <td><code>header</code></td>
+          <td>header</td>
+          <td>not to be confused with <code>head</code>; abstract semantic tag used to label part of the page, has no immediate effect on page's appearance</td>
+        </tr>
+
+        <tr>
+          <td><code>div</code></td>
+          <td>division</td>
+          <td>block element; set the divisions apart</td>
+        </tr>
+
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>inline element; like <code>div</code> but for inline use</td>
+        </tr>
+
+        <tr>
+          <td><code>blockquote</code></td>
+          <td>blockquote</td>
+          <td>for quoting blocks of text</td>
+        </tr>
+      </table>
     </div>
 
   </body>
