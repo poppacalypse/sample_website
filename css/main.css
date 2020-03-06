@@ -7,3 +7,31 @@
   text-decoration: none;
   color: #5dbcd2;
 }
+
+.image-link {
+  text-decoration: none;
+}
+
+.book-report-header {
+  text-align: center; margin: 0 0 80px;
+}
+
+.image-center {
+  display: block; margin: 0 auto;
+}
+
+.book-report-container {
+  width: 500px; margin: 20px auto; padding: 30px; background-color: #5dbcd2;
+}
+
+.book-cover {
+  float: left; margin: 0 40px 20px 0
+}
+
+.book-title {
+  font-style: italic; font-size: 20px;
+}
+
+.book-report-opener {
+  font-style: normal; font-size: 24px; font-weight: bold; color: #ccc;
+}
